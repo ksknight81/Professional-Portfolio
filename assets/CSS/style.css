@@ -1,0 +1,11 @@
+/* CSS Styles for Personal Portfolio */
+
+:root {
+    --primary-color: #3c1642;
+    --secondary-color: #1DD3B0;
+    --tertiary-color: #affc41;
+}
+
+header h1 {
+    color: var(--secondary-color)
+}
