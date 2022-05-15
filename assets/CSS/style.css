@@ -1,11 +1,31 @@
 /* CSS Styles for Personal Portfolio */
 
 :root {
-    --primary-color: #3c1642;
+    --primary-color: #EF476f;
     --secondary-color: #1DD3B0;
     --tertiary-color: #affc41;
 }
 
+/* Header Styles */
 header h1 {
-    color: var(--secondary-color)
+    background-color: #06D6A0;
+    color: var(--primary-color)
 }
+
+header ul li {
+    flexbox: flex;
+    flex-wrap: wrap;
+    color: var(tertiary-color);
+}
+
+header img {
+    width: 200px;
+    border-radius: 550px;
+}
+
+/*Body Styles*/
+h1 {
+    color: var(--secondary-color);
+}
+
+/*Footer Styles*/
