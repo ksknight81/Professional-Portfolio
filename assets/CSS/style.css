@@ -7,9 +7,9 @@
   }
 
 :root {
-    --primary-color: #EF476f;
-    --secondary-color: #1DD3B0;
-    --tertiary-color: #03045e;
+    --primary-color: #006494;
+    --secondary-color: #0582ca;
+    --tertiary-color: #00a5cf;
 }
 
 /* Header Styles */
@@ -18,24 +18,13 @@ header {
     background-color: var(--tertiary-color);
     justify-content:space-around ;
     position: sticky;
-    
-   /* justify-content: space-between;
-    padding: 20px 35px;
-    background-color: var(--tertiary-color);
-    font-style: italic;
-    
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0; */
 }
 
 header h1 {
     color: var(--primary-color);
     text-align: center;
-       display: inline;
+    display: inline;
+    
 }
 
 header a {
@@ -77,6 +66,10 @@ header ul li {
     color: var(tertiary-color);
 }
 
+.hero {
+    background-color: var(--secondary-color);
+}
+
 .hero img {
     justify-content: center;
     padding: 20px;
@@ -86,6 +79,7 @@ header ul li {
 }
 
 /*Body Styles*/
+
 
 h1 {
     color: var(--secondary-color);
