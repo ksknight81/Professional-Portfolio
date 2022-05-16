@@ -1,5 +1,11 @@
 /* CSS Styles for Personal Portfolio */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
 :root {
     --primary-color: #EF476f;
     --secondary-color: #1DD3B0;
@@ -7,9 +13,18 @@
 }
 
 /* Header Styles */
-
+  
 header {
+    padding: 40px 35px;
+    background-color: var(--tertiary-color);
+    display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+  
+   
+    
+   /* justify-content: space-between;
     padding: 20px 35px;
     background-color: var(--tertiary-color);
     font-style: italic;
@@ -19,7 +34,7 @@ header {
     flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
-    top: 0; 
+    top: 0; */
 }
 /*
 header img {
@@ -32,10 +47,32 @@ header nav {
   }
 
 header h1 {
+    
     color: var(--primary-color);
-    font-size: 70px;
-    text-align: right;
+    font-size: 50px;
+    margin: 0;
 }
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--tertiary-color);
+    border-end-end-radius: 10px;
+    border-start-start-radius: 10px;
+    text-shadow: 5px;
+
+}
+
+header nav ul li a {
+    padding: 5px 5px;
+    font-weight: lighter;
+    font-size: 1.75vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
 
 header nav ul {
     display: flex;
@@ -46,7 +83,8 @@ header nav ul {
   }
 
 header ul li {
-    padding: 10px 15px;
+    
+    padding: 50px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba (0, 0, 0, 0.5);
