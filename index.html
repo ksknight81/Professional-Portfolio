@@ -28,14 +28,14 @@
       <p>
         <img src="assets/images/kevin.jpg" />
       </p>
-      <nav>
-        <h1>Hello, I'm Kevin</h1>
-        <p>And I am here to make your ideas come to life...</p>
-      </nav>
+      <div>
+        <h1>Hello, I'm Kevin!</h1>
+        <h2>And I am here to make your development ideas come to life...</h2>
+      </div>
     </section>
 
-    <section id="About">
-      <h1>About Me</h1>
+    <section id="About" class="about">
+      <h3 class="section-title section-border">About Me</h3>
       <p>
         My name is Kevin Knight, and I am a traveller.  I love to spend 
         time travelling with my partner around the world.  Over the last 2 years
@@ -43,29 +43,102 @@
         Besides travelling, I also find alot of my weekends in summer
         spent camping. Spending the time next to the campfire with our dog 
         <a>Elsa</a> is the perfect way to spend a weekend.
-        
+      </br></br>
       </p>
     </section>
 
     <section id="Work">
-      <h1>My Work</h1>
+      
+      <h3 class="section-title section-border">My Work</h3>
+      <div>
+        <p>Below you will find examples of my development work completed for you to see
+        a sample of my capabilities.
+        </p>
+      </div>
+      <div class="flex-row">
+      </div>
+    </br>
+      <div class="myprojects">
+        <article class="project">
+          <div class="grow">
+          <img src="assets/images/Elsa.jpg" alt="Project 1 image" />
+          <div class="centered">
+            <h3>Project 1</h3>
+          </div>
+        </div>
+        </article>
+      </div>
+      <div class="myprojects">
+        <article class="project">
+        <div class="grow">
+          <img src="assets/images/Elsa.jpg" alt="Project 2 image" />
+          <div class="centered">
+            <h3>Project 2</h3>
+          </div>
+        </div>
+        </article>
+      </div>
+      <div class="myprojects">
+        <article class="project">
+          <div class="grow">
+          <img src="assets/images/Elsa.jpg" alt="Project 3 image" />
+          <div class="centered">
+            <h3>Project 3</h3>
+          </div>
+          </div>
+        </article>
+      </div>
+      <div class="myprojects">
+        <article class="project">
+          <div class="grow">
+            <img src="assets/images/Elsa.jpg" alt="Project 4 image" />
+          <div class="centered">
+            <h3>Project 4</h3>
+          </div>
+          </div>
+        </article>
+      </div>
+      <div class="myprojects">
+        <article class="project">
+          <div class="grow">
+          <img src="assets/images/Elsa.jpg" alt="Project 5 image" />
+          <div class="centered">
+            <h3>Project 5</h3>
+          </div>
+          </div>
+        </article>
+      </div>
+      </div>
     </section>
 
-    <section id="Contact">
-      <h1>Contact</h1>
-      <div class="contact-info">
-        <div>
-          <h3>Contact Me</h3>
+   <!-- Contact Me Form & Details -->
+
+   <section id="Contact">
+   <h3 class="section-title section-border">Contact Me</h3>
+   <div class="contact-info">
+      <div class="client-information">
+           
           <p>
             Do you like what you see? 
             <br/>
-            Send me a message and I'll happy to help with your development needs!
+            I'll happy to assist with your development needs!  Fill in your information below and I will respond within 48 hours, alternatively you can find me using my socials below. 
           </p>
-          
-          
+        
+        <div>
+        <form>
+          <label for="contact-name">Your Name</label>
+          <input type="text" placeholder="Name" id="contact-name" class="form-input" />
+          <label for="email">Your Email</label>
+          <input type="email" placeholder="Email Address" id="email" name="email" class="form-input" />
+          <label for="needs">Your Development Needs</label>
+          <input type="text" placeholder="How can I help you" name="needs" id="needs" class="form-input" />
+          <button type="submit">
+            Submit
+          </button>
+        </form>
         </div>
+      </div>
     </section>
-
     <footer>
       <div>
         <address>
