@@ -143,6 +143,17 @@ header ul li {
   max-width: 300px;
   padding: 10%;
 }
+.myprojects1 {
+  display: flex;
+  flex-wrap: wrap;
+  display: inline-block;
+}
+.myprojects1 img {
+  float: left;
+  max-width: 350px;
+  margin: 50px;
+  padding: 10% ;
+}
 
 .grow img:hover {
   -webkit-transform: scale(1.2);
@@ -156,6 +167,7 @@ header ul li {
   top: 50%;
   left: 50%;
   color: white;
+  text-decoration: none;
   text-align: center;
   transform: translate(-50%, -50%);
 }  
