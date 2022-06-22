@@ -202,6 +202,10 @@ form {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
+#client-information-details {
+  text-align: center;
+}
+
 .contact-info button:hover {
   background-color: var(yellow);
 }
@@ -227,8 +231,8 @@ form {
   border-radius: 10px;
 }
 .client-information button:hover {
-  color: var(--texttertiary-color);
-  background: var(--primary-color);
+  color: var(--textprimary-color);
+  background: var(--tertiary-color);
 }
 
 /* Contact */
